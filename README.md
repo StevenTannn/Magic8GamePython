@@ -8,9 +8,12 @@ Python
 
 ##Setup
 Untuk menjalankan aplikasi:
-- Pertama jalankan server.js dengan ```python server.js {hostIP}``` default port(8080) jika ingin menjalankan di port lain silahkan menjalankan dengan ```python server.js {hostIP} -p{port}```
-- Lalu jalankan client.js dengan ```python client.js {hostIP}``` default port(8080) jika ingin menjalankan di port lain silahkan menjalankan dengan ```python client.js {hostIP} -p{port}```
-- untuk bantuan silahkan mengetik ```python client.js atau server.js -h```
+- Pertama jalankan server.py dengan ```python server.py {IPaddress}``` default port(8080) jika ingin menjalankan di port lain silahkan menjalankan dengan ```python server.py {IPaddress} -p{port}```
+Contoh : python server.py 127.0.0.1 atau python server.py 127.0.0.1 -p 8081
+- Lalu jalankan client.py dengan ```python client.py {IPaddress}``` default port(8080) jika ingin menjalankan di port lain silahkan menjalankan dengan ```python client.py {IPaddress} -p{port}```
+Contoh : python client.py 127.0.0.1 atau python client.py 127.0.0.1 -p 8081
+- untuk bantuan silahkan mengetik ```python client.py atau server.py -h```
+- Pastikan port dan hostIP antara client dan server sama.
 
 ##Penjelasan App
 -Pada awal masuk anda akan diminta untuk mengisi pertanyaan yang anda ingin tau jawabannya
