@@ -1,2 +1,2 @@
 # Magic8GamePython
-Building Magic8ball game in Python using Thinker, socket and threading.
+Building Magic8ball game in Python using socket and threading.
