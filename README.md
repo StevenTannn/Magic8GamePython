@@ -16,7 +16,7 @@ Contoh : python client.py 127.0.0.1 atau python client.py 127.0.0.1 -p 8081
 - Pastikan port dan hostIP antara client dan server sama.
 
 ## Penjelasan App
-Cara menjalankan App : 
+Cara menggunakan App : 
 -Pada awal masuk anda akan diminta untuk mengisi pertanyaan yang anda ingin tau jawabannya
 -Kemudian nanti server akan memberikan jawaban dari pertanyaan yang anda berikat
 
