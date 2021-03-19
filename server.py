@@ -49,8 +49,6 @@ class Server (threading.Thread):
             print("Answer for Client: %s" % stringOut)
             dataOut = stringOut.encode()
             conn.send(dataOut)
-            conn.close()
-
 
 def exit(server):
     while True:
@@ -58,7 +56,7 @@ def exit(server):
         if ipt == 'quit':
             print("Closing Server Connection")
             for conn in server.conn:
-                conn.sc.close()
+                conn.close()
             os._exit(0)
 
 
